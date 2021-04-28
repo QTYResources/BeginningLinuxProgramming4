@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# 用法：
+# $ ./export1
+
+# The second meta-syntactic variable
+# $
+#
+
+echo "$f00"
+echo "$bar"

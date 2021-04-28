@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# 用法：
+# $ . ./classic_set
+# classic> echo $version
+# classic
+# classic> . ./latest_set
+# latest version> echo $version
+# latest
+# latest version>
+#
+
+version=latest
+PATH=/usr/local/new_bin:/usr/bin:/bin:.
+PS1="latest version> "

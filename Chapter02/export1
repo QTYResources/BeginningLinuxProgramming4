@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# 用法：
+# $ ./export1
+
+# The second meta-syntactic variable
+# $
+#
+
+foo="The first meta-syntactic variable"
+export bar="The second meta-syntactic variable"
+
+./export2
